@@ -8,13 +8,28 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
+    "@types/js-cookie": "^2.2.6",
+    "@types/js-yaml": "^3.12.5",
+    "@types/mathjs": "^6.0.5",
+    "@types/node": "^14.10.1",
+    "axios": "^0.20.0",
     "core-js": "^3.6.5",
+    "fast-safe-stringify": "^2.0.7",
+    "font-awesome": "^4.7.0",
+    "js-cookie": "^2.2.1",
+    "js-yaml": "^3.14.0",
+    "mathjs": "^7.2.0",
+    "ml-matrix": "^6.5.1",
     "register-service-worker": "^1.7.1",
+    "replace-string": "^3.1.0",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vue-toastification": "^1.7.8",
+    "vuex": "^3.4.0",
+    "vuex-class": "latest",
+    "vuex-module-decorators": "^0.17.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
