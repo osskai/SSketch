@@ -1,4 +1,12 @@
-# webcad
+# SSketch
+
+This project is based on [xibyte/jsketcher](https://github.com/xibyte/jsketcher), 
+but based on the Typescript language. And I have also used the codes from others,
+such as the undo/redo command [threejs/editor](https://github.com/mrdoob/three.js),
+and others, and the constraint solver [solvespace](https://github.com/solvespace/solvespace). 
+
+This project is just a demo currently, please download it and
+run in your web. Enjoy it.
 
 ## Project setup
 ```
@@ -9,22 +17,3 @@ yarn install
 ```
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-to do list:
-1. trim
-2. offset
-3. traverse
-4. conflict constraints
